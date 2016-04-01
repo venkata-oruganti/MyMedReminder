@@ -1,0 +1,8 @@
+/* Empty. Add your own CSS if you like */
+.headlogo{float:right; width:100px; margin-right:25px;}
+img{max-width:100%;}
+.welcome{width:25%; margin:0 auto; text-align:center; color:#5f4b9f; font-size:20px; line-height:24px; font-weight:lighter; margin-top:20%;}
+.clr{clear:both}
+.mytitle{width:75%; margin:0 auto; text-align:center; color:#5f4b9f; font-size:36px; line-height:50px; font-weight:bold; margin-top:20%;}
+.mainlogo{width:30%; margin:0 auto;margin-top:5%;}
+.btnclass{width:20%; margin:0 auto;margin-top:10%;}

@@ -1,0 +1,47 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-royal">
+		<ion-nav-back-button></ion-nav-back-button>
+		<!-- <ion-nav-buttons side="left">
+			<button class="button button-icon button-clear ion-navicon" menu-toggle="left">arwerwerwer</button>
+        </ion-nav-buttons> -->
+    </ion-nav-bar>
+	<ion-nav-view name="menuContent"></ion-nav-view>
+	</ion-side-menu-content>
+    <ion-side-menu side="left">
+        <ion-header-bar class="bar-royal">
+			<div class='' style="background:#5f4b9f" >
+				<img src="img/default.png" width="50px">
+				<b>Joshua Mathew</b>
+				<p>joshuageorgem@gmail.com</p>
+				<div class="clr"></div>
+			</div>
+		</ion-header-bar>
+        <ion-content style="background:#ededed">
+			<ion-list>
+				<ion-item menu-close   href="#/app/sync-devices">
+					<i class="icon-left ion-android-sync"></i>
+				  Sync Devices
+				</ion-item>
+				<ion-item menu-close href="#/app/add-medication">
+					<i class="icon-left "></i>
+				  Add Medication
+				</ion-item>
+				<ion-item menu-close href="#/app/purple-health-feed">
+					<i class="icon-left ion-ios-paper"></i>
+				  Pruple Health Feed
+				</ion-item>
+				<ion-item menu-close href="#/app/profile">
+					<i class="icon-left ion-ios-person"></i>
+				  Profile
+				</ion-item>
+				<ion-item menu-close href="#/app/settings">
+					<i class="icon-left ion-ios-gear"></i>
+				  Settings
+				</ion-item>
+			</ion-list>
+		</ion-content>
+        
+    
+  </ion-side-menu>
+</ion-side-menus>
