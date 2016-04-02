@@ -18,7 +18,7 @@ img{max-width:100%;}
 .nav li:hover  ul{display:block;}
 .nav ul li{background:#e6e6e6; text-align:center; padding:10px 0px; margin-top:10px}
 .nav ul li a{background:#e6e6e6; padding:0;}
-.profiledesc{ text-align:center}
+.profiledesc{ text-align:center; }
 .schedular{margin-top:10%}
 .syncdevice{margin:10%; line-height:36px;}
 .syncdevice h4 {line-height:36px}
@@ -27,8 +27,10 @@ img{max-width:100%;}
 .button.loadbtn{margin-top:20%; vertical-align:middle; min-height:20px; min-width:200px; background:#ccb3ff; border-radius:0px;}
 .item.item-avatar{max-width:100%; padding-left:100px}
 .item.item-avatar > img:first-child{max-height:60px; max-width:60px; margin-top:5%; border:2px solid #ededed}
-.icon-left{float:left; width:33%;}
-.icon-middle{float:left; width:33%; text-align:center;}
-.icon-left i {max-width:25px}
-.icon-right{float:right; width:25px; hegith:25px}
-.icon-right img{max-width:100%}
+.lefticon{padding-top:10px;float:left; width:33%;}
+.middleicon{padding-top:10px;float:left; width:33%; text-align:center;}
+.lefticon i{max-width:25px}
+.righticon{padding-top:10px; float:right; width:28px; hegith:28px}
+.righticon  img{max-width:100%}
+.ion-ios-telephone-outline , .ion-email {font-size:28px; }
+.ion-tabs .tabs{top:0}
