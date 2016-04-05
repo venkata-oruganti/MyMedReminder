@@ -18,7 +18,7 @@ body{
 
 .ion {
   display: inline-block;
-  font-family: Open Sans;
+  font-family: $ionicons-font-family;
   speak: none;
   font-style: normal;
   font-weight: normal;
